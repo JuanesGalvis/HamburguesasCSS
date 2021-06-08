@@ -1,0 +1,42 @@
+{
+  "name": "hamburguesas-don-galvis",
+  "version": "1.0.0",
+  "description": "Carta para un restaurante de hamburguesas ficticio con animaciones",
+  "main": "dist/index.html",
+  "scripts": {
+    "build:dev": "npx webpack --config webpack.config.dev.js",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JuanesGalvis/HamburguesasCSS.git"
+  },
+  "keywords": [
+    "Animaciones",
+    "CSS",
+    "SVG"
+  ],
+  "author": "JuanesGalvis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanesGalvis/HamburguesasCSS/issues"
+  },
+  "homepage": "https://github.com/JuanesGalvis/HamburguesasCSS#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "css-minimizer-webpack-plugin": "^3.0.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "terser-webpack-plugin": "^5.1.3",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1"
+  }
+}
