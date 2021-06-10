@@ -1,0 +1,29 @@
+@media screen and (min-width: 683px) {
+    .Carta {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Carta__Opciones {
+        grid-column: 1 / 3;
+    }
+}
+
+@media screen and (min-width: 1070px) {
+
+    .Carta .Carta__Logotipo {
+        font-size: 3rem;
+    }
+
+    .Carta__Opciones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    .Carta__Opciones {
+        padding-bottom: 10px;
+    }
+}
+
+/* Media Query para animaciones */

@@ -4,7 +4,7 @@
   "description": "Carta para un restaurante de hamburguesas ficticio con animaciones",
   "main": "dist/index.html",
   "scripts": {
-    "build:dev": "npx webpack --config webpack.config.dev.js",
+    "build:dev": "npx webpack serve --config webpack.config.dev.js",
     "build": "npx webpack --config webpack.config.js"
   },
   "repository": {

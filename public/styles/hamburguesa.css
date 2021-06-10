@@ -1,0 +1,71 @@
+svg {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#Pan_Inferior{
+    transform: translateY(-65px);
+    transition: transform 0.5s ease;
+}
+#Carne{
+    transform: translateY(-47px);
+    transition: transform 0.5s ease;
+}
+#Cebolla{
+    transform: translateY(-17px);
+    transition: transform 0.5s ease;
+}
+#Tomate{
+    transform: translateY(0px);
+    transition: transform 0.5s ease;
+}
+#Queso{
+    transform: translateY(28px);
+    transition: transform 0.5s ease;
+}
+#Lechuga{
+    transform: translateY(49px);
+    transition: transform 0.5s ease;
+}
+#Pepinillos{
+    transform: translateY(71px);
+    transition: transform 0.5s ease;
+}
+#Pan_Superior{
+    transform: translateY(85px);
+    transition: transform 0.5s ease;
+}
+
+svg:hover #Pan_Inferior {
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+svg:hover #Carne{
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+svg:hover #Cebolla{
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+svg:hover #Tomate{
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+svg:hover #Queso{
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+svg:hover #Lechuga{
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+svg:hover #Pepinillos{
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+svg:hover #Pan_Superior {
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}

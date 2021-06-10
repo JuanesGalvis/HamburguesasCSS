@@ -1,7 +1,63 @@
 body {
-    margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    overflow: hidden;
     background-color: darkred;
     color: white;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+h3 {
+    font-family: Arial;
+    border-bottom: 2px solid gold;
+}
+
+main {
+    border: 5px solid gold;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 20px 0px #5E0000; 
+    box-shadow: 0px 0px 20px 0px #5E0000;
+}
+
+.Carta {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.Carta__Logotipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.Carta__Logotipo span {
+    font-family: fantasy;
+}
+
+.Carta__Opciones {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.Carta__Opciones--Left div p,
+.Carta__Opciones--Right div p {
+    display: block;
+    font-family: Arial;
+}
+
+.Carta__Opciones--Left div,
+.Carta__Opciones--Right div {
+    display: flex;
+    justify-content: space-between;
 }
