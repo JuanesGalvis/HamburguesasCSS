@@ -3,6 +3,7 @@
 > Proyecto personal: Carta digital para un restaurante de hamburgesas ficticio con animaciones CSS
 
 ![Demostración del funcionamiento](https://github.com/JuanesGalvis/HamburguesasCSS/blob/master/Animation.gif)
+![Demostración del funcionamiento](https://github.com/JuanesGalvis/HamburguesasCSS/blob/master/Auditoria.jpg)
 
 ### Practicado:
 - Webpack
