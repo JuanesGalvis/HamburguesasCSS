@@ -2,8 +2,9 @@
 
 > Proyecto personal: Carta digital para un restaurante de hamburgesas ficticio con animaciones CSS
 
+![QRCODE generado por Google Chrome](https://github.com/JuanesGalvis/HamburguesasCSS/blob/master/QRCODE.png)
 ![Demostración del funcionamiento](https://github.com/JuanesGalvis/HamburguesasCSS/blob/master/Animation.gif)
-![Demostración del funcionamiento](https://github.com/JuanesGalvis/HamburguesasCSS/blob/master/Auditoria.jpg)
+![Auditoria en Google Lighthouse](https://github.com/JuanesGalvis/HamburguesasCSS/blob/master/Auditoria.jpg)
 
 ### Practicado:
 - Webpack
